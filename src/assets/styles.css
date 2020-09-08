@@ -7,16 +7,59 @@ body {
 .index {
   width: 100%;
   height: 100vh;
-}
 
-.index__top {
+  display: flex;
+  flex-direction: column;
+}
+.index .index__top {
   width: 100%;
-  height: 10%;
+  height: 10vh;
 
-  background-color: darkcyan;
+  background-color: #70a1ff;
 }
+.index .index__main {
+  width: 100%;
+  height: 90vh;
 
-.index .index__right {
   display: flex;
   flex-direction: row;
+}
+.index .index__main .index__main__col1 {
+  width: 50%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.index .index__main .index__main__col1 .index__col2__col1__1 {
+  width: 100%;
+  height: 50%;
+
+  background-color: #74b9ff;
+}
+.index .index__main .index__main__col1 .index__col2__col1__2 {
+  width: 100%;
+  height: 50%;
+
+  background-color: #0984e3;
+}
+
+.index .index__main .index__main__col2 {
+  width: 50%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+.index .index__main .index__main__col2 .index__main__1 {
+  width: 50%;
+  height: 100vh;
+
+  background-color: #54a0ff;
+}
+.index .index__main .index__main__col2 .index__main__2 {
+  width: 50%;
+  height: 100vh;
+
+  background-color: #2e86de;
 }
